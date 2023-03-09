@@ -826,4 +826,14 @@ footer p {
   height: auto;
 }
 
+@media (max-width: 650px) {
+  #home img {
+    margin-top: 70px;
+  }
+
+  #home a {
+    display: none;
+  }
+}
+
 }
