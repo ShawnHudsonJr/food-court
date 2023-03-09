@@ -465,6 +465,7 @@ a:hover, a:active, a:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .questions {
