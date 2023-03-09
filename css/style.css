@@ -1,10 +1,6 @@
-/*
-
-App Starter Template
-
-http://www.templatemo.com/tm-492-app-starter
-
-*/
+html {
+  scroll-behavior: auto;
+}
 
 body {
 		background: #1c1c1c;
@@ -17,7 +13,7 @@ body {
 
 
 /*---------------------------------------
-    Typorgraphy              
+    Typography              
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6,
@@ -143,16 +139,16 @@ a:hover, a:active, a:focus {
 }
 
 #about,
-#screenshot,
+#memberships,
 #divider,
-#pricing,
+#faq,
 #newsletter {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 #divider,
-#pricing {
+#faq {
   text-align: center;
 }
 
@@ -326,27 +322,6 @@ a:hover, a:active, a:focus {
 #home .section-btn {
   background: #810000;
 }
-
-#home .section-btn:hover {
-  background: transparent !important;
-}
-
-
-/*---------------------------------------
-   Divider section              
------------------------------------------*/
-
-#divider {
-  background-color: #1dc9e3;
-}
-
-#divider p {
-  color: #666;
-  font-size: 26px;
-  line-height: 42px;
-}
-
-
 /*---------------------------------------
    About section              
 -----------------------------------------*/
@@ -361,7 +336,6 @@ a:hover, a:active, a:focus {
   text-align: center;
 }
 #about .about-box {
-  .background-color: red;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -390,13 +364,13 @@ a:hover, a:active, a:focus {
     Screenshot section              
 -----------------------------------------*/
 
-#screenshot .col-md-3 {
+#memberships .col-md-3 {
   display: block;
   width: 100%;
   padding-bottom: 1rem;
 }
 
-#screenshot img {
+#memberships img {
   background-color: #ffffff;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
   border-radius: 2px;
@@ -409,7 +383,7 @@ a:hover, a:active, a:focus {
   transition: all 0.4s ease-in-out;
 }
 
-#screenshot img:hover {
+#memberships img:hover {
   box-shadow: 0px 16px 22px 0px rgba(0, 0, 0, 0.3);
   top: -6px;
 }
@@ -440,119 +414,58 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-   Pricing section         
+   FAQ section         
 -----------------------------------------*/
 
-#pricing {
-  background: #535bd4;
+#faq {
+  background: #ffffff;
 }
 
-#pricing .pricing-plan {
+#faq hr {
+  border-bottom-color: black;
+}
+
+#faq h1 {
+  color:#000
+}
+
+#faq h3 {
+  color: black;
+}
+
+#faq .faq-plan {
   background-color: #ffffff;
   border-radius: 2px;
   margin-bottom: 32px;
 }
 
-#pricing .pricing-plan .pricing-month {
+#faq .faq-plan .faq-month {
   padding: 14px 10px 6px 10px;
 }
 
-#pricing .pricing-plan .pricing-month h2 {
+#faq .faq-plan .faq-month h2 {
   font-size: 52px;
   color: #1dc9e3;
 }
 
-#pricing .pricing-plan .section-btn {
+#faq .faq-plan .section-btn {
   background: #1dc9e3;
   position: relative;
   top: 20px;
 }
 
-#pricing .pricing-plan .section-btn:hover {
+#faq .faq-plan .section-btn:hover {
   background-color: #ffffff;
   color: #222;
 }
-
-
-/*---------------------------------------
-    Newsletter section              
------------------------------------------*/
-
-#newsletter {
-    background: #535bd4 url('../images/newsletter-bg.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-    position: relative;
-}
-
-#newsletter .overlay {
-  background: #1dc9e3;
-  opacity: 0.9;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#newsletter .form-control {
-  background-color: transparent;
-  border: none;
-  border-bottom: 3px solid #eee;
-  border-radius: 0px;
-  box-shadow: none;
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 400;
-  height: 50px;
-  transition: all 0.4s ease-in-out;
-  margin-bottom: 20px;
-}
-
-#newsletter .form-control:focus {
-  border-color: #ffffff;
-}
-
-#newsletter input[type="submit"] {
-  background-color: #ffffff;
-  border-radius: 100px;
-  border: 3px solid #ffffff;
-  color: #1dc9e3;
-  font-size: 17px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  height: 55px;
-}
-
-#newsletter input[type="submit"]:hover {
-  background-color: transparent;
-  color: #ffffff;
-}
-
-#newsletter .form-control::-moz-placeholder {
-  color: #ffffff;
-  opacity: 1;
-}
-
-#newsletter .form-control:-ms-input-placeholder {
-  color: #ffffff;
-}
-
-#newsletter .form-control::-webkit-input-placeholder {
-  color: #ffffff;
-}
-
 
 /*---------------------------------------
    Footer section              
 -----------------------------------------*/
 
 footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 footer span {
@@ -561,7 +474,7 @@ footer span {
 }
 
 footer p {
-  padding-top: 16px;
+  padding-top: 0px;
 }
 
 
@@ -571,7 +484,7 @@ footer p {
 -----------------------------------------*/
 
 .modal-dialog .modal-content {
-  background-color: #535bd4;
+  background-color: #ffffff;
   border: none;
   border-radius: 2px;
   text-align: center;
@@ -589,7 +502,7 @@ footer p {
 }
 
 .modal-dialog .close {
-  color: #ffffff;
+  color: black;
   font-size: 45px;
   font-weight: 300;
   text-shadow: none;
@@ -609,7 +522,7 @@ footer p {
 }
 
 .modal-dialog .modal-title {
-  color: #ffffff;
+  color: #000000;
 }
 
 .modal-dialog form {
@@ -622,10 +535,10 @@ footer p {
 
 .modal-dialog .form-control {
   background: transparent;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #000000;
   border-radius: 0px;
   box-shadow: none;
-  color: #ffffff;
+  color: #000000;
   font-size: 20px;
   margin-bottom: 20px;
   transition: all 0.4s ease-in-out;
@@ -635,11 +548,11 @@ footer p {
   border-top-color: transparent;
   border-right-color: transparent;
   border-left-color: transparent;
-  border-bottom-color: #ffffff;
+  border-bottom-color: #000000;
 }
 
 .modal-dialog form input[type="submit"] {
-  background: #1dc9e3;
+  background: #810000;
   border: 3px solid transparent;
   border-radius: 100px;
   font-weight: 400;
@@ -651,19 +564,19 @@ footer p {
 
 .modal-dialog form input[type="submit"]:hover {
   background: transparent;
-  border-color: #1dc9e3;
-  color: #ffffff;
+  border-color: #810000;
+  color: #000000;
 }
 
 .modal-dialog .form-control::-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
   opacity: 1;
 }
 .modal-dialog .form-control:-ms-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 .modal-dialog .form-control::-webkit-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 
 .modal.fade .modal-dialog{
@@ -821,8 +734,8 @@ footer p {
   }
 
   #about, #divider,
-  #screenshot,
-  #pricing, #newsletter {
+  #memberships,
+  #faq, #newsletter {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -863,7 +776,7 @@ footer p {
     padding-left: 0px;
   }
 
-  #pricing .pricing-plan {
+  #faq .faq-plan {
     margin-bottom: 62px;
   }
 
