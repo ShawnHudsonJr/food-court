@@ -211,11 +211,12 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand {
+  .background-color: red;
   color: #630000;
   font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   line-height: 50px;
   margin: 0;
 }
@@ -470,6 +471,7 @@ a:hover, a:active, a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 /*---------------------------------------
    Footer section              
