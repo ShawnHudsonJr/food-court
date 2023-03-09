@@ -459,6 +459,18 @@ a:hover, a:active, a:focus {
   color: #222;
 }
 
+.row2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*---------------------------------------
    Footer section              
 -----------------------------------------*/
@@ -475,6 +487,12 @@ footer span {
 
 footer p {
   padding-top: 0px;
+}
+
+.row3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
