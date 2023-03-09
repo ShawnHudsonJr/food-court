@@ -834,6 +834,10 @@ footer p {
   #home a {
     display: none;
   }
+
+  #home .home-thumb {
+    margin-bottom: 50px;
+  }
 }
 
 }
