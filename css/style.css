@@ -211,8 +211,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand {
-  .background-color: red;
-  color: #630000;
+  color: #810000;
   font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
