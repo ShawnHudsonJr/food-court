@@ -281,12 +281,10 @@ a:hover, a:active, a:focus {
     display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
-    display: flex;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-     align-items: center;
-    height: 80vh;
+    min-height: 80vh;
     position: relative;
 }
 
@@ -296,23 +294,44 @@ a:hover, a:active, a:focus {
   background: linear-gradient(to left, #696969 , #810000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.9;
   position: absolute;
-  width: 100%;
-  height: 80vh;
+  min-height: 80vh;
   top: 0;
   left: 0;
   right: 0;
 }
 
-#home img {
-  width: 100%;
+.logo img {
+  margin-top: 2em;
+  max-width: 60rem;
+  max-height: 40em;
+
+}
+
+.home-box {
   position: relative;
-  height: auto;
+  .background-color: green;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: auto;
+  margin-top: 5em;
 }
 
 #home .home-thumb {
-  padding-top: 102px;
-  padding-left: 32px;
+  max-width: 45em;
 }
+
+#home .home-thumb h1 {
+  .font-size: 1.5em;
+
+}
+
+#home .home-thumb p {
+  .font-size: 1.1em;
+}
+
 
 #home p,
 #newsletter p {
@@ -673,7 +692,7 @@ footer p {
 }
 
 .social-icon li a:hover {
-    background: #1dc9e3;
+    background-color: #81000057;
     color: #ffffff;
     top: -5px;
 }
@@ -826,18 +845,16 @@ footer p {
   height: auto;
 }
 
-@media (max-width: 650px) {
-  #home img {
-    margin-top: 70px;
-  }
+@media (max-width: 390px) {
+ #home .home-box a {
+  display: none;
+ }
 
-  #home a {
-    display: none;
-  }
+ #home .home-box {
+  margin-top: -.75em;
+ }
 
-  #home .home-thumb {
-    margin-bottom: 50px;
-  }
-}
-
+ #home .logo {
+  margin-bottom: -4em;
+ }
 }
