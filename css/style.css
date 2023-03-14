@@ -273,7 +273,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-    background: #535bd4 url('../images/home-bg.jpg') no-repeat;
+    background: #810000 url('../images/2-blur.jpg') no-repeat ;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
@@ -283,55 +283,64 @@ a:hover, a:active, a:focus {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    min-height: 80vh;
+    min-height: 100vh;
+    min-width: 100%;
     position: relative;
 }
 
 #home .overlay {
   background: #810000; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #4776E6 , #8E54E9); /* Chrome 10-25, Safari 5.1-6 */ 
-  background: linear-gradient(to left, #696969 , #810000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient( #f8f5f53f, 40%, #000000f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.9;
   position: absolute;
-  min-height: 80vh;
+  min-height: 100vh;
   top: 0;
   left: 0;
   right: 0;
 }
 
 .logo img {
-  margin-top: 2em;
-  max-width: 60rem;
-  max-height: 40em;
-
+  max-width: 40rem;
+  min-width: 25rem;
+  margin-bottom: 5vh;
 }
 
 .home-box {
   position: relative;
   .background-color: green;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  width: 90vw;
-  margin: auto;
-  margin-top: 5em;
+  margin-top: 2vh;
 }
 
 
 
 #home .home-thumb {
-  max-width: 45em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
 }
 
 #home .home-thumb h1 {
-  .font-size: 1.5em;
-
+  font-size: 2.5em;
+  font-weight: 800;
+  font-family: Helvetica;
+  text-align: center;
 }
 
-#home .home-thumb p {
-  .font-size: 1.1em;
+#home .color {
+  color: #810000;
+  line-height: -1em;
 }
+
+#home .home-thumb hr {
+}
+
 
 
 #home p,
@@ -374,6 +383,7 @@ a:hover, a:active, a:focus {
 
 #about h3 {
   text-align: center;
+  font-size: 2rem;
 }
 
 #about .about-thumb:hover h4 {
@@ -848,7 +858,6 @@ footer p {
 
 @media (max-width: 390px) {
  #home .home-box a {
-  display: none;
  }
 
  #home .home-box {
