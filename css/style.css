@@ -211,7 +211,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand {
-  color: #810000;
+  color: #990000;
   font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
@@ -221,7 +221,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand span {
-  color: #810000;
+  color: #990000;
 }
 
 .navbar-default .navbar-nav li a {
@@ -237,19 +237,19 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #810000;
+    color: #990000;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #810000;
+    color: #990000;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #810000;
+    color: #990000;
     background-color: transparent;
 }
 
@@ -273,7 +273,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-    background: #810000 url('../images/2-blur.jpg') no-repeat ;
+    background: #990000 url('../images/2-blur.jpg') no-repeat ;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
@@ -289,7 +289,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .overlay {
-  background: #810000; /* fallback for old browsers */
+  background: #990000; /* fallback for old browsers */
   background: -webkit-linear-gradient(#f8f5f53f, 40%, #000000f3); /* Chrome 10-25, Safari 5.1-6 */ 
   background: linear-gradient( #f8f5f53f, 40%, #000000f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.9;
@@ -334,7 +334,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .color {
-  color: #810000;
+  color: #990000;
   line-height: -1em;
 }
 
@@ -350,7 +350,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .section-btn {
-  background: #810000;
+  background: #990000;
 }
 /*---------------------------------------
    About section              
@@ -603,7 +603,7 @@ footer p {
 }
 
 .modal-dialog form input[type="submit"] {
-  background: #810000;
+  background: #990000;
   border: 3px solid transparent;
   border-radius: 100px;
   font-weight: 400;
@@ -615,7 +615,7 @@ footer p {
 
 .modal-dialog form input[type="submit"]:hover {
   background: transparent;
-  border-color: #810000;
+  border-color: #990000;
   color: #000000;
 }
 
@@ -703,7 +703,7 @@ footer p {
 }
 
 .social-icon li a:hover {
-    background-color: #81000057;
+    background-color: #99000057;
     color: #ffffff;
     top: -5px;
 }
