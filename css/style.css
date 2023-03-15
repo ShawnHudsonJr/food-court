@@ -211,7 +211,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand {
-  color: #990000;
+  color: #700000;
   font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
@@ -221,7 +221,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand span {
-  color: #990000;
+  color: #700000;
 }
 
 .navbar-default .navbar-nav li a {
@@ -237,19 +237,19 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #990000;
+    color: #700000;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #990000;
+    color: #700000;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #990000;
+    color: #700000;
     background-color: transparent;
 }
 
@@ -273,7 +273,8 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-    background: #990000 url('../images/2-blur.jpg') no-repeat ;
+    background: #700000 url('../images/splash-bg.jpg') no-repeat ;
+    background-color: white;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
@@ -289,9 +290,9 @@ a:hover, a:active, a:focus {
 }
 
 #home .overlay {
-  background: #990000; /* fallback for old browsers */
+  background: #700000; /* fallback for old browsers */
   background: -webkit-linear-gradient(#f8f5f53f, 40%, #000000f3); /* Chrome 10-25, Safari 5.1-6 */ 
-  background: linear-gradient( #f8f5f53f, 40%, #000000f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient( rgba(12, 12, 12, 0.74), 100%, rgba(12, 12, 12, 0.575)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.9;
   position: absolute;
   min-height: 100vh;
@@ -327,20 +328,23 @@ a:hover, a:active, a:focus {
 }
 
 #home .home-thumb h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: 800;
-  font-family: Helvetica;
+  font-family: Arial;
   text-align: center;
+  text-shadow: 0 6px #0000004b;
 }
 
 #home .color {
-  color: #990000;
+  color: #700000;
   line-height: -1em;
+  -webkit-text-stroke: 2px #c9c9c9;
 }
 
-#home .home-thumb hr {
+#home .white {
+  -webkit-text-stroke: 2px #414040f5;
+  -webkit-text-size-adjust: auto;
 }
-
 
 
 #home p,
@@ -350,7 +354,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .section-btn {
-  background: #990000;
+  background: #700000;
 }
 /*---------------------------------------
    About section              
