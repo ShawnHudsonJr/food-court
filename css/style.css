@@ -273,10 +273,10 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-    background: #700000 url('../images/splash-bg.jpg') no-repeat ;
+    background: #700000 url('../images/test-bg-3.jpg') no-repeat ;
     background-color: white;
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
     color: #ffffff;
     display: -webkit-box;
     display: -webkit-flex;
@@ -288,12 +288,10 @@ a:hover, a:active, a:focus {
     min-height: 100vh;
     min-width: 100%;
     position: relative;
+    overflow-x: hidden;
 }
 
 #home .overlay {
-  background: #700000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(#f8f5f53f, 40%, #000000f3); /* Chrome 10-25, Safari 5.1-6 */ 
-  background: linear-gradient( rgba(12, 12, 12, 0.74), 100%, rgba(12, 12, 12, 0.575)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.9;
   position: absolute;
   min-height: 100vh;
@@ -315,6 +313,7 @@ a:hover, a:active, a:focus {
   justify-content: center;
   align-items: center;
   margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 
@@ -876,4 +875,5 @@ footer p {
   margin-bottom: -4em;
  }
 }
+
 }
