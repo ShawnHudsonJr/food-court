@@ -428,7 +428,6 @@ a:hover, a:active, a:focus {
 }
 
 #merch .listings {
-  .background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -575,7 +574,6 @@ a:hover, a:active, a:focus {
 }
 
 .questions {
-  .background-color: red;
   display: flex;
   justify-content: center;
   align-items: flex-start;
