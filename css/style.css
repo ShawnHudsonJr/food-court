@@ -371,7 +371,7 @@ a:hover, a:active, a:focus {
 
 #about .about-thumb {
   width: 100%;
-  margin-bottom: 32px;
+  margin-bottom: 4rem;
   text-align: center;
 }
 #about .about-box {
@@ -399,9 +399,76 @@ a:hover, a:active, a:focus {
   color: #1dc9e3;
 }
 
+/*---------------------------------------
+    Merch section              
+-----------------------------------------*/
+
+#merch {
+  background-color: rgb(253, 253, 253);
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 22rem;
+  overflow-x: hidden;
+}
+
+#merch img {
+  max-height: 450px;
+  margin: 2rem;
+}
+
+#merch .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80vw;
+
+}
+
+#merch .listings {
+  .background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  margin-top: 10vh;
+  flex-wrap: wrap;
+  min-width: 80rem;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+#merch .left-side {
+  display: flex;
+  flex-direction: column;
+}
+
+#merch .right-side {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#merch .image {
+  background-color: #b3b1b15e;
+}
+
+#merch h1, #merch h2, #merch h3, #merch .divider {
+  color: black;
+}
+
+#merch h2 {
+  margin-top: 6rem;
+}
+
+#merch .heading hr {
+  border-color: #000000;
+}
 
 /*---------------------------------------
-    Screenshot section              
+    Memberships section              
 -----------------------------------------*/
 
 #memberships .col-md-3 {
@@ -462,7 +529,7 @@ a:hover, a:active, a:focus {
 }
 
 #faq hr {
-  border-bottom-color: black;
+  border-color: black;
 }
 
 #faq h1 {
@@ -508,9 +575,10 @@ a:hover, a:active, a:focus {
 }
 
 .questions {
+  .background-color: red;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 /*---------------------------------------
