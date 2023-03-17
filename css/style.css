@@ -366,6 +366,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #about iframe {
+  margin-top: -2rem;
   width: 100%;
 }
 
@@ -396,7 +397,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .about-thumb:hover h4 {
-  color: #1dc9e3;
+  color: #600000;
 }
 
 /*---------------------------------------
@@ -414,6 +415,7 @@ a:hover, a:active, a:focus {
 }
 
 #merch img {
+  max-width: 80vw;
   max-height: 450px;
   margin: 2rem;
 }
@@ -423,7 +425,7 @@ a:hover, a:active, a:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 80vw;
+  max-width: 100%;
 
 }
 
@@ -432,9 +434,9 @@ a:hover, a:active, a:focus {
   justify-content: center;
   align-items: center;
   gap: 5vw;
-  margin-top: 10vh;
+  margin-top: 8vh;
+  margin-bottom: 6vh;
   flex-wrap: wrap;
-  min-width: 80rem;
   padding-left: 4em;
   padding-right: 4em;
 }
@@ -451,7 +453,7 @@ a:hover, a:active, a:focus {
 }
 
 #merch .image {
-  background-color: #b3b1b15e;
+  background-color: #00000000;
 }
 
 #merch h1, #merch h2, #merch h3, #merch .divider {
@@ -551,7 +553,7 @@ a:hover, a:active, a:focus {
 
 #faq .faq-plan .faq-month h2 {
   font-size: 52px;
-  color: #1dc9e3;
+  color: #600000;
 }
 
 #faq .faq-plan .section-btn {
