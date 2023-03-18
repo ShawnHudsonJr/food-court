@@ -292,10 +292,10 @@ a:hover, a:active, a:focus {
 }
 
 #home .overlay {
-  background-color: #ffffff;
+  
   opacity: 0.8;
   position: absolute;
-  min-height: 100vh;
+  min-height: 100%;
   top: 0;
   left: 0;
   right: 0;
@@ -308,7 +308,6 @@ a:hover, a:active, a:focus {
 }
 
 .home-box {
-  .background-color: red;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -322,7 +321,6 @@ a:hover, a:active, a:focus {
 
 
 #home .home-thumb {
-  .background-color: red;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -379,7 +377,6 @@ a:hover, a:active, a:focus {
   text-align: center;
 }
 #about .about-box {
-  .background-color: red;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -388,8 +385,6 @@ a:hover, a:active, a:focus {
   margin-top: 10em;
 }
 #about .about-info {
-  .background-color: red;
-  .min-height: 70vh;
   display: flex;
   justify-content: center;
   margin-bottom: auto;
@@ -413,7 +408,6 @@ a:hover, a:active, a:focus {
   width: 100%;
   text-align: center;
   padding-top: 8rem;
-  .padding-bottom: 22rem;
   overflow-x: hidden;
 }
 
@@ -424,7 +418,6 @@ a:hover, a:active, a:focus {
 }
 
 #merch .container {
-  .background-color: red;
   display: flex;
   flex-direction: column;
   justify-content: center;
