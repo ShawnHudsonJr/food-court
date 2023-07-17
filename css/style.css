@@ -313,7 +313,7 @@ a:hover, a:active, a:focus {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 80vh;
+  min-height: 60vh;
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
@@ -367,36 +367,65 @@ a:hover, a:active, a:focus {
    About section              
 -----------------------------------------*/
 
-#about iframe {
-  margin-top: -15rem;
-  width: 100%;
-}
-
-#about .about-thumb {
-  width: 100%;
-  text-align: center;
-}
-#about .about-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  margin-top: 10em;
-}
-#about .about-info {
-  display: flex;
-  justify-content: center;
-  margin-bottom: auto;
-}
-
-#about h3 {
-  text-align: center;
-  font-size: 2rem;
-}
-
 #about .about-thumb:hover h4 {
   color: #600000;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 60vh; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+/* Media Query for smaller mobile devices (newer iPhones and Android devices) */
+@media only screen
+  and (max-device-width: 414px) /* iPhone X/XS/11 Pro */,
+  only screen
+  and (max-device-width: 375px) /* iPhone 6/7/8 */,
+  only screen
+  and (max-device-width: 360px) /* Galaxy S9/S10/S20 */,
+  only screen
+  and (max-device-width: 412px) /* Pixel 2/3/4 */,
+  only screen
+  and (max-device-width: 432px) /* Pixel 4 XL */,
+  only screen
+  and (max-device-width: 360px) /* HTC U11/U12+ */,
+  only screen
+  and (max-device-width: 411px) /* OnePlus 5/5T/6/6T/7/7T/8 */,
+  only screen
+  and (max-device-width: 412px) /* OnePlus 8 Pro */,
+  only screen
+  and (max-device-width: 428px) /* OnePlus 9 */,
+  only screen
+  and (max-device-width: 440px) /* OnePlus 9 Pro */ {
+
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }
 
 /*---------------------------------------
@@ -838,14 +867,6 @@ footer p {
     padding-top: 0px;
   }
 
-  #about {
-    text-align: center;
-  }
-
-  #about .about-thumb {
-    margin-top: 62px;
-  }
-
 }
 
 @media (max-width: 768px) {
@@ -858,7 +879,7 @@ footer p {
     padding-bottom: 32px;
   }
 
-  #about, #divider,
+  #divider,
   #memberships,
   #faq, #newsletter {
     padding-top: 60px;
